@@ -11,6 +11,18 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 24px 24px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #202020;
+}
+
 body {
   width: 100%;
   background-color: #202020;
@@ -619,5 +631,71 @@ body {
 .py-9 {
   padding-top: 128px !important;
   padding-bottom: 128px !important;
+}
+
+section {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+textarea {
+  width: 800px;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 15px 180px;
+  border: 0px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #309520;
+  color: #EFEFEF;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+button:active {
+  border: 1px solid #35c235;
+}
+
+.text-box {
+  width: 800px;
+  position: relative;
+  background-color: #C9C9C9;
+  margin: 24px 0px;
+  padding: 36px 36px;
+  border-radius: 10px;
+  line-height: 1.2;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  opacity: .5;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.close:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

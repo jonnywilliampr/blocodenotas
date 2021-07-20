@@ -1,0 +1,59 @@
+section{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+textarea{
+    width: 800px;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+button{
+    margin-top: 10px;
+    padding: 15px 180px;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: $green;
+    color: $white;
+    transition: .5s ease;
+    cursor: pointer;
+
+    &:hover{
+        opacity: .5;
+    }
+    &:active{
+        border: 1px solid rgb(53, 194, 53);
+    }
+}
+
+.text-box{
+    width: 800px;
+    position: relative;
+    background-color: $gray;
+    margin: 24px 0px;
+    padding: 36px 36px;
+    border-radius: 10px;
+    line-height: 1.2;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: .5;
+    transition: 0.7s ease;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
